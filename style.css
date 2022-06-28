@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    color: white;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #23252C;
+}
+
+main{
+    width: 317px;
+    height: 399px;
+    left: 116px;
+    top: 361px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;    
+
+    background: #1A1B21;
+}
+
+.app{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header--img{
+    
+}
+
+.main--div1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main--informations-h1{
+    width: 178.06px;
+    height: 25.81px;
+    left: 186px;
+    top: 382px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.main--informations-h3{
+    height: 14.19px;
+    
+    margin-top: 6px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #F3BF99;
+}
+
+.main--informations-p{
+    height: 16px;
+    
+    margin-top: 8px;
+    margin-bottom: 15px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+
+    text-align: center;
+
+    color: #F5F5F5;
+}
+
+.main--contacts-btns{
+    box-sizing: border-box;
+    
+    margin-top: 0;
+    margin-bottom: 12px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+}
+
+.main--contacts-btn-email{
+    width: 115px;
+    height: 34px;
+    left: 151px;
+    top: 468px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    
+    margin-right: 8px;
+
+    background: #FFFFFF;
+
+    border: 1px solid #D1D5DB;;
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    
+    color: #374151;
+    
+    cursor: pointer;
+}
+
+.main--contacts-btn-email:hover{
+    background-color: #918E9B;
+}
+
+.main--contacts-btn-email-icon{
+    margin-right: 10px; 
+}
+
+.main--contacts-btn-linkedin{
+    width: 115px;
+    height: 34px;
+    left: 283px;
+    top: 468px;
+
+    margin-left: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    background: #5093E2;
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    border: none;
+    
+    cursor: pointer;
+}
+
+.main--contacts-btn-linkedin:hover{
+    background-color: #918E9B;
+}
+
+.main--contacts-btn-linkedin-icon{
+    height: 13.333333969116211px;
+    width: 13.333333969116211px;
+    left: 1.333343505859375px;
+    top: 1.333343505859375px;
+    border-radius: 0px;
+
+    margin-right: 10px;
+    margin-top: 4px;
+}
+
+.main--texts{
+    width: 247px;
+    height: 201px;
+    left: 152px;
+    top: 535px;
+}
+
+.main--texts-h3{
+    width: 242.71px;
+    height: 21px;
+    left: 152px;
+    top: 535px;
+    
+    margin: 10px 0px 5px 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+
+    color: #F5F5F5;
+}
+
+.main--texts-p-1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+
+    color: #DCDCDC;
+}
+
+.main--texts-p-2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+
+    color: #DCDCDC;
+}
+
+.footer{    
+    display: flex;
+    align-content: center;
+    align-items: center;
+    
+    padding-left: 44px;
+    
+    width: 317px;
+
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.footer-ul{
+    display: flex;
+    justify-content:center;
+    text-align:center;
+}
+
+.footer-ul-li{
+    display: inline-block;
+    padding: 15px;
+ 
+    cursor: pointer;
+}
+
+.footer-ul-li:hover{
+    background-color: #918E9B;
+}
