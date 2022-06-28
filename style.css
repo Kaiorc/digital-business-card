@@ -248,4 +248,5 @@ main{
 
 .footer-ul-li:hover{
     background-color: #918E9B;
+    filter: invert(100%);
 }
